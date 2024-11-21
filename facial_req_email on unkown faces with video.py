@@ -36,9 +36,9 @@ cascade = "haarcascade_frontalface_default.xml"
 
 ## --------------------- FUNCTION FOR SENDING OUT EMAILS --------------------- ##
 def send_message():
-	email_sender = os.environ.get('EMAIL_USER') ##brokegeipkids@gmail.com
-	email_password = os.environ.get('EMAIL_PASS')  ##nybl cyri iosr dovp
-	email_receiver = 'brokegeipkids@gmail.com'
+	email_sender = os.environ.get('EMAIL_USER') ## email address of sender
+	email_password = os.environ.get('EMAIL_PASS')  ##gmail app password
+	email_receiver = 'receiver@gmail.com'
 
 	# Getting the image to be sent as attachment
 	with open ('image.jpg', 'rb') as image: #rb stands for read bytes
