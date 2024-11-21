@@ -1,0 +1,10 @@
+Video files are names with the following format
+
+output_date_time
+date: YYMMDD
+time: Hour-Minute-Second (24 hour clock)
+
+Example: 
+date: 5th November 2024 (241105)
+time: 5:16:43 pm (17-16-43)
+filename: output_241105_17-16-43
