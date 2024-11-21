@@ -1,3 +1,6 @@
+## Project Overview
+This project recognizes an unknown face that is not within the dataset and notifies via email with a captured image and video of the unknown person
+
 ## Steps for this project:
 
 1. Headshots.py 
